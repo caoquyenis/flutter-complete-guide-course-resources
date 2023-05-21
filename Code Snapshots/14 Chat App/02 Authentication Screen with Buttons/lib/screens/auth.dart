@@ -10,6 +10,7 @@ class AuthScreen extends StatefulWidget {
 }
 
 class _AuthScreenState extends State<AuthScreen> {
+  // Check if user is logged. Default is true.
   var _isLogin = true;
 
   @override
